@@ -1,0 +1,1017 @@
+* { margin: 0px; padding: 0px; text-decoration: none; box-sizing: border-box;} /*para definir tudo como padrao e o (*) serve para tudo o que vc for colocar na tela*/
+header{
+    float: left;
+    padding: 0px;
+
+}
+body {
+    font-size: 62.5%;
+}
+body {
+    padding:0px;
+    margin:0px;
+    background: #ffffff;
+}
+img {
+    max-width: 100%;
+}
+#container {
+    width: 1200px;
+    margin: 0px auto;
+    /*background: #ffffff;*/
+    display: table;
+    margin-bottom: 15px;
+    margin-top: -15px;
+
+
+}
+p {
+    text-align: justify;
+}
+
+/*===================================================COMEÇO DO MENU===========================================================*/
+ul {
+    padding:0px;
+    margin:0px;
+    float: left;
+    list-style:none;
+}
+ul li { display: inline; 
+}
+
+ul li a {
+    color: #a60000 !important;
+    text-decoration: none;
+    padding: 5px 16px;
+    float: left;
+    font-size: 1.09em;
+    font-weight: 600;
+    text-align: center;
+    transition: all 0.4s ease;
+    font-family: "Myriad Pro Regular";
+}
+.navdireita ul{
+    float: left;
+    margin-left: 73px;
+    text-transform: uppercase;
+}
+.imglogo {
+    width: 26%;
+    float: right;
+    text-align: center;
+    margin-left: -188px;
+}
+.navesquerda ul li a {
+    float:right;
+}
+.navesquerda {
+    float: right;
+    margin-top: -63px;
+    width: 40.5%;
+}
+.navdireita {
+    float: left;
+    margin-top: -63px;
+    width: 43%;
+}
+.logo {
+    float: left;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    margin-top: 23px;
+}
+nav {
+    margin: 0 auto;
+    text-align: center;
+}
+/*SOB MENUS*/
+nav ul ul {
+    display: none;
+    z-index: 9999;
+}
+li:hover ul, .menu li.over ul{display:block;}
+nav ul li:hover > ul {
+    display: block;
+    position: absolute;
+    width: 134%;
+    float: left;
+    top: 87%;
+    left: -78%;
+    background: #ffffff;
+    text-align: center;
+
+}
+.navdireita nav ul li:hover > ul li {
+    width: 100%;
+
+}
+.navdireita li ul {
+    position:absolute; 
+    display:none;
+}
+.navdireita ul > li > ul > li {
+    width: 100%;
+}
+
+.navdireita ul > li > ul > li > a:hover {
+    width: 100%;
+}
+.navdireita ul > li > ul > li > a {
+    text-align: center;
+    border-bottom: 1px solid #a60000;
+    width: 100%;
+
+}
+.navdireita ul li {
+    position: relative;
+    float: left;
+}
+.navdireita ul li a:hover {
+    border-bottom: 1px solid #a60000;
+}
+/*CSS DO MENU*/
+.navdireita a:hover {
+    background-color: #a60000;
+    color: #fff !important;
+    text-decoration: none;
+    text-shadow: 0px 0px 5px #fff;
+
+}
+.navesquerda a:hover {
+    background-color: #a60000;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: 0px 0px 5px #fff;
+}
+
+.navesquerda nav ul li:hover > ul li {
+    width: 100%;
+
+}
+.navesquerda li ul {
+    position:absolute; 
+    display:none;
+}
+.navesquerda ul > li > ul > li {
+    width: 100%;
+}
+
+.navesquerda ul > li > ul > li > a:hover {
+    width: 100%;
+}
+.navesquerda ul > li > ul > li > a {
+    text-align: center;
+    border-bottom: 1px solid #a60000;
+    width: 100%;
+
+}
+.navesquerda ul li {
+    position: relative;
+    float: left;
+}
+.navesquerda ul li a:hover {
+    border-bottom: 1px solid #a60000;
+}
+/*CSS DO MENU*/
+.navesquerda a:hover {
+    background-color: #a60000;
+    color: #fff !important;
+    text-decoration: none;
+    text-shadow: 0px 0px 5px #fff;
+
+}
+
+/*===============================================FINAL DO MENU===========================================*/
+/*CARROUSEL*/
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    margin: auto;
+    width: 100%;
+}
+/* ==========================================CAROUSEL MENOR =================================================*/
+.amazingcarousel-image div > a {
+    position: absolute !important;
+    margin-top: 10px !important;
+    display: none;
+}
+#amazingcarousel-1 .amazingcarousel-image {
+    padding: 1px !important;
+    padding-bottom: 122px !important;
+}
+#amazingcarousel-container-1 {
+    background: url("../images/fundomenu.png") repeat;
+}
+.carousel-inner>.item>a>img, .carousel-inner>.item>img {
+    border-top: 3px solid #a60000;
+    border-bottom: 3px solid #a60000;
+}
+
+.btn-damiana-white {
+    color: #a60000 !important;
+    background: #ffffff !important;
+    font-weight: 600;
+    text-align: center;
+    font-family: "Myriad Pro Regular";
+}
+.btn-damiana-white:hover {
+    background: #a60000 !important;
+    color: #ffffff !important;
+    text-shadow: 0px 0px 5px #fff;
+    transition: 0.3s;
+}
+.btn-damiana-black {
+    color: #ffffff !important;
+    background: #a60000 !important;
+    font-weight: 600;
+    text-align: center;
+    font-family: "Helvetica";
+    float: right;
+}
+.btn-damiana-black:hover {
+    background: #ffffff!important;
+    color: #a60000 !important;
+    text-shadow: 1px 0px 0px #fff;
+    transition: 0.3s;
+}
+/*teste teste*/
+.agenda {
+    width: 48%;
+    float: right;
+    text-align: center;
+    text-transform: none;
+    margin-bottom: 10px;
+}
+.agenda img {
+    width: 48%;
+    float: left;
+    border: 6px solid #a60000;
+    text-align: center;
+    margin-bottom: 20px;
+    display: block;
+    vertical-align: middle;
+    margin-left: 8px;
+    height: 175px;
+    opacity: 0.6;
+}
+.agenda p {
+    color: #c5c5c5;
+    font-size: 1.0em;
+    float: left;
+    width: 100%;
+    text-align: justify;
+    font-family: "Myriad Pro Regular";
+    margin-left: 0px;
+
+}
+.agenda h2 {
+    color: #c5c5c5;
+    width: 100%;
+    font-family: "Myriad Pro Regular";
+}
+.agenda .btn {
+    padding: 6px 22px !important;
+    font-size: 16px;
+    color: #a60000;
+    background: #ffffff;
+    font-weight: 600;
+    float: left;
+    text-align: center;
+    font-family: "Myriad Pro Regular";
+    margin-left: 223px;
+}
+.agenda .btn:hover {
+    background: #a60000;
+    color: #ffffff;
+    text-shadow: 0px 0px 5px #fff;
+    transition: 0.3s;
+}
+
+.agenda img:hover {
+    transition: 0.3s;
+    opacity: 1.0;
+}
+.noticia img:hover {
+    transition: 0.3s;
+    opacity: 1.0;
+}
+#amazingcarousel-1 .amazingcarousel-title {
+    font-family: "Myriad Pro Regular" !important;
+}
+
+/*===============================================REDES SOCIAIS RODAPÉ===================================*//*REDES SOCIAIS */
+
+footer{
+    background: #6b0000
+}
+.rodape-centro {
+    width: 100%; 
+}
+.rodape1 ul {
+    padding:0px;
+    margin:0px;
+    float: left;
+    list-style:none;
+}
+.rodape1 ul li a {
+    color: #ffffff !important;
+    text-decoration: none;
+    padding: 2px 18px;
+    float: left;
+    font-size: 1.0em;
+    margin-top: 0px;
+    font-weight: 600;
+    text-align: center;
+    transition: all 0.4s ease;
+    font-family: "Myriad Pro Regular";
+    width: 100%;
+    text-transform: uppercase;
+}
+.rodape1 ul li a:hover {
+    color: #a60000 !important;
+    background: #ffffff;
+}
+.rodape1 ul li a:hover {
+    color: #000000;
+    text-decoration: none;
+}
+.rodape1 ul li {
+    display: block;
+}
+.desenvolvedor {
+    width: 15%;
+    float: right;
+}
+.dentro-logo {
+    width: 54%;
+    float: right;
+    z-index: 999;
+    margin-top: -26px;
+    margin-bottom: 0px;
+}
+.dentro-logo  img{
+    width: 15%;
+}
+.desenvolvedor img {
+    width: 100%;
+    float: right;
+}
+.desenvolvedor img:hover {
+    filter: blur(1px) contrast(3) sepia(100%);
+}
+.centro-direitos {
+    width: 100%;
+    float: left;
+    margin-top: -62px;
+}
+.centro-direitos p {
+    font-size: 1.1em;
+    font-weight: 600;
+    color: #ffffff;
+}
+.fundo-rodape {
+    width: 100%;
+    float: left;
+    height: auto;
+    padding-top: 20px;
+    background: url(../images/fundoteste.png) repeat;
+    padding-bottom: 20px;
+}
+.redes-sociais {
+    width: 100%;
+    margin-top: -114px;
+    float: left;
+}
+.redes-sociais  p {
+    width: 100%;
+    float: right;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 1.6em;
+    margin-right: -87px;
+    margin-top: 13px;
+}
+.centro-redes-sociais {
+    float: right;
+    width: 100%;
+}
+.centro-redes-sociais ul li:hover > ul {
+    display: block;
+    position: absolute;
+    width: 100%;
+    float: right;
+    text-align: center;
+}
+.centro-redes-sociais  ul > li > ul > li {
+    width: 100%;
+}
+
+.redes-sociais .whatsapp img{
+    position: relative;
+    float: right;
+    width: 15%;
+}
+.redes-sociais .whatsapp img:hover{
+    filter: blur(1px) contrast(2);
+}
+.centro-redes-sociais ul {
+    padding: 0px;
+    margin: 0px;
+    float: right;
+    list-style: none;
+    width: 79%;
+    margin-top: 0px;
+}
+.whatsapp {
+    width: 30%;
+    float: right;
+    margin-right: 17px;
+    margin-top: -49px;
+}
+.whatsapp:hover {
+    filter: blur(1px) contrast(2);
+}
+.facebook {
+    width: 30%;
+    float: right;
+    margin-right: 30px;
+    margin-top: -54px;
+}
+.redes-sociais .facebook img{
+    position: relative;
+    float: right;
+    width: 15%;
+}
+.redes-sociais .facebook img:hover{
+    filter: blur(1px) contrast(2);
+}
+.twitter {
+    width: 30%;
+    float: right;
+    margin-right: -64px;
+    margin-top: -54px;
+}
+.redes-sociais .twitter img{
+    position: relative;
+    float: right;
+    width: 15%;
+}
+.redes-sociais .twitter img:hover{
+    filter: blur(1px) contrast(2);
+}
+
+.rodape1 .rodape-fundo {
+    background: #800000;
+    margin-left: 9px;
+    margin-top: 3px;
+    margin-bottom: 5px;
+}
+.rodape-fundo li a {
+    border-bottom: 1px solid #610000;
+}
+
+/*=============================================FINAL REDES SOCIAIS RODAPÉ===================================*/
+#topcontrol {
+    bottom: 20px !important;
+}
+#topcontrol img:hover{
+    background: #000000;
+}
+#topcontrol:hover{
+    opacity: 1 !important;
+    text-shadow: 0px 0px 4px #fff !important;
+}
+#topcontrol img{
+    width: auto;
+    height: auto;
+    background: rgba(0, 0, 0, 0.43);
+    border-radius: 22px;
+}
+.conteudo-centro-categoria {
+    border-top: 2px solid #a60000;
+    padding-bottom: 10px;
+    background: url(../images/fundoteste.png) repeat;
+}
+.centro-categoria-conteudo {
+    width: 80%;
+    float: right;
+    display: inline;
+    margin-top: 5px;
+    position: relative;
+}
+.centro-categoria-conteudo-busca {
+    width: 100%;
+    float: right;
+    display: inline;
+    margin-top: 5px;
+    position: relative;
+}
+.centro-tudo-foto {
+    width: 100%;
+    float: right;
+    position: relative;
+    display: inline;
+    background: #ffffff;
+    padding: 5px;
+    margin-top: 5px;
+}
+.lergenda-foto {
+    width: 29.3%;
+    float: left;
+    display: inline;
+    position: relative;
+    margin-left: -268px;
+    margin-top: 101px;
+    height: 103px;
+    opacity: 0.5;
+    background: #000000;
+
+}
+.lergenda-foto:hover {
+    z-index: 1;
+    opacity: 0.8;
+
+}
+.group-foto{
+    display: inline !important;
+    position: relative;
+    width: 100%;
+    height: 100%;
+
+}
+.centro-tudo-foto img {
+    width: 100%;
+    float: left;
+    display: inline;
+    height: 200px;
+    /*border: 3px solid #a60000;*/
+    position: relative;
+}
+
+.centro-tudo-foto ul {
+    width: 99.3%;
+    float: right;
+    display: inline;
+    position: relative;
+}
+.lergenda-foto h3{
+    color: #ffffff;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 10px;
+    font-family: "Myriad Pro Regular";
+}
+.lergenda-foto p {
+    color: #ffffff;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 10px;
+    font-family: "Myriad Pro Regular";
+}
+.lergenda-foto .btn {
+    padding: 6px 22px !important;
+    font-size: 12px;
+    color: #a60000;
+    background: #ffffff;
+    font-weight: 600;
+    float: left;
+    text-align: center;
+    font-family: "Myriad Pro Regular";
+    margin-left: 75px;
+}
+.lergenda-foto .btn:hover{
+    background: #a60000;
+    color: #ffffff;
+    text-shadow: 0px 0px 5px #fff;
+    transition: 0.3s;
+}
+aside {
+    width: 19%;
+    float: left;
+    text-align: center;
+}
+.categoria-aside ul {
+    width: 100%;
+    float: left;
+    text-align: center;
+    background: url("../images/fundomenu.png") repeat;
+}
+.categoria-aside h1 {
+    font-family: "Myriad Pro Regular";
+    background: #a60000;
+    width: 100%;
+    color: #ffffff;
+    height: auto;
+    padding: 8px;
+    font-size: 2.0em;
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+.categoria-aside ul li {
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+.categoria-aside ul li a {
+    text-align: center;
+    width: 100%;
+    font-family: -webkit-pictograph;
+    font-size: 1.2em;
+    height: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-decoration: none;
+    border-bottom: 1px solid #a60000;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.categoria-aside ul li a:hover {
+    background: #a60000;
+    color: #ffffff !important;    
+    text-shadow: 0px 0px 5px #fff;
+    transition: 0.3s;
+}
+.centro-tudo-foto img:hover{
+    opacity: 0.8 !important;
+    -webkit-transition: 0.3s ease-out;
+    -moz-transition: 0.3s ease-out;
+    -o-transition: 0.3s ease-out;
+    transition: 0.3s ease-out;
+}
+.centro-tudo-foto ul > li > a {
+    display: inline !important;
+    position: relative;
+    float: left;
+    width: 31%;
+    padding: 1px 5px;
+}
+
+/*QUANDO CLICA NA IMAGEM*/
+#lightboxOverlay {
+    width: 100% !important;
+}
+.lb-outerContainer {
+    width: 100% !important;
+    height: auto !important;
+
+}
+.lb-container {
+    width: 100% !important;
+    height: auto !important;
+}
+.lb-dataContainer {
+    width: 100% !important;
+    height: auto !important;
+}
+#galeria-view .retina {
+    padding: 0px;
+}
+#galeria-view .retina a {
+    background: none;
+    border: none;
+    padding: 94px 140px;
+}
+.hoverzoom .btn {
+    padding: 6px 22px !important;
+    font-size: 16px;
+    color: #a60000;
+    background: #ffffff;
+    font-weight: 600;
+    float: left;
+    text-align: center;
+    font-family: "Myriad Pro Regular";
+}
+.hoverzoom p {
+    text-align: center;
+}
+
+
+/*para fazer o zoon*/
+.hoverzoom {
+    position: relative;
+    width: 32.2%;
+    height: auto;
+    overflow: hidden;
+    float: left;
+    margin: 5px 5px 5px 5px;
+}
+.hoverzoom > img {
+    width: 100%;
+    height: auto;
+    border-radius: 2px;
+    -webkit-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+    -moz-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+    -ms-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+    -o-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+    transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+}
+.hoverzoom:hover > img {
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    -o-transform: scale(1.5);
+    transform: scale(1.5);
+}
+.hoverzoom .retina{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;    
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.5);    
+    border-radius: 2px;
+    text-align: center;
+    padding: 30px;
+
+    -webkit-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+    -moz-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+    -ms-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+    -o-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+    transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+}
+.hoverzoom:hover .retina {
+    opacity: 1;
+    box-shadow: inset 0 0 100px 50px rgba(0,0,0,.5);
+
+}
+.hoverzoom .retina p {
+    color: #fff;
+    font-size: 1.0em;
+}
+.hoverzoom .retina a {
+    display: block;
+    width: 150px;
+    background: #a60000;
+    border: 1px solid #a60000;
+    border-radius: 4px;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 15px;
+    margin: 16px auto 0;
+    font-size: 1.0em;
+}
+
+/*COMEÇO DO MENU RESPONSIVO*/
+.logo-responsivo > img {
+    width: 50%;
+    float: left;
+    height: auto;
+    margin-top: -17px;
+}
+.navbar-fixed-bottom, .navbar-fixed-top, .navbar-static-top {
+    display: none;
+}
+.img-banner {
+    width: 100%;
+}
+
+/* fundo rodape */
+.fundo-rodape .panel-default>.panel-heading {
+    background: #ffffff !important;
+}
+.fundo-rodape .list-group {
+    border-top: 1px solid #ddd;
+}
+
+/*NOTICIAS HOME*/
+.start-box {
+    position: relative;
+    margin-bottom: 20px;
+}
+.rodape-home {
+    background: #790101;
+}
+/*icones plugins*/
+.hi-icon:before {
+    font-size: 30px !important;
+    line-height: 60px !important;
+    margin-top: 0px;
+}
+.hi-icon{
+    width: 60px !important;
+    height: 60px !important;
+    margin: -5px 15px !important;
+}
+/*ICONES RODAPE*/
+.redes-sociais > span {
+    top: 10px !important;
+}
+.rodape-home .btn-damiana-black {
+    background: #790101 !important;
+    margin-right: 62px;
+}
+.rodape-home .btn-damiana-black:hover {
+    text-decoration: none;
+}
+.facebookbotao .btn-damiana-black:hover{
+    color: #3b5998 !important;
+    text-shadow: 0px 0px 0px #fff;
+}
+.instagrambotao .btn-damiana-black:hover{
+    color: #D9C8B6 !important;
+    text-shadow: 0px 0px 0px #fff;
+}
+.twitterbotao .btn-damiana-black:hover{
+    color: #38ACD8 !important;
+    text-shadow: 0px 0px 0px #fff;
+}
+.youtubebotao .btn-damiana-black:hover{
+    color: #E32C28 !important;
+    text-shadow: 0px 0px 0px #fff;
+}
+.buscadefotos .centro-categoria-conteudo {
+    width: 100%;
+}
+.buscadefotos .centro-tudo-foto .hoverzoom {
+    width: 24.33%;
+}
+/*MAPA DO GOOGLE CONTATO E CONTATO*/
+.mapagooglecontato {
+    width: 45%;
+    float: right;
+}
+.backgraund-panel-body-preto .panel-body {
+    background: url(../images/fundoteste.png) repeat;
+}
+.backgraund-panel-body-preto .panel {
+    border: 0px solid;
+}
+/*SOLICITYE ORCAMENTO*/
+.imgsoliciteorcamento img {
+    width: 100%;
+    float: left;
+    height: auto;
+    border: 3px solid #a60000;
+    background: #000000;
+    -webkit-filter: sepia(50%); 
+    filter: sepia(50%);
+    transition: 0.5s;
+}
+.backgraundorcamento img:hover {
+    -webkit-filter: sepia(0%); 
+    filter: sepia(0%);
+}
+/*PAGE NOTICIAS.PHP*/
+.asidenoticias aside {
+    width: 100%;
+    display: table;
+}
+.categoria-aside h3 {
+    font-family: "Myriad Pro Regular";
+    background: #a60000;
+    width: 100%;
+    color: #ffffff;
+    height: auto;
+    padding: 8px;
+    font-size: 1.6em;
+    margin-bottom: 0px;
+    font-weight: 900;
+    margin-top: 0px;
+}
+.noticiadefault .panel-default>.panel-heading {
+    background: url(../images/fundomenu.png) repeat;
+}
+.noticiadefault legend {
+    border-bottom: 1px solid #c3c3c3;
+}
+
+/* DENTRO DA PAGE AGENDA SEMANAL*/
+.panel-heading.backgraundagenda {
+    background: url(../images/fundomenu.png) repeat !important;
+}
+.pageagenda > .list-group {
+    border-bottom: 1px solid #a7a7a7;
+}
+rowagenda .row {
+    margin-top: 10px;
+}
+/* responsivos leste e oeste */
+.responsivo-oeste {
+    width: 50%;
+    float: left 
+}
+.responsivo-leste {
+    width: 50%;
+    float: right;
+}
+/* responsivo leste maior */
+.responsivo-oeste-maior-primeiro {
+    width: 60%;
+    float: left; 
+}
+.responsivo-oeste-maior-secundo {
+    width: 70%;
+    float: left; 
+}
+.responsivo-oeste-maior-terceiro {
+    width: 80%;
+    float: left;
+}
+.responsivo-oeste-maior-quarto {
+    width: 90%;
+    float: left; 
+}
+.responsivo-oeste-maior-quinto {
+    width: 100%;
+    float: left; 
+}
+/* responsivo leste menor */
+.responsivo-oeste-menor-primeiro {
+    width: 10%;
+    float: left;
+}
+.responsivo-oeste-menor-secundo {
+    width: 20%;
+    float: left;
+}
+.responsivo-oeste-menor-terceiro {
+    width: 30%;
+    float: left;
+}
+.responsivo-oeste-menor-quarto {
+    width: 40%;
+    float: left;
+}
+.responsivo-oeste-menor-quinto {
+    width: 50%;
+    float: left;
+}
+/* responsivo oeste maior */
+.responsivo-leste-maior-primeiro {
+    width: 60%;
+    float: right; 
+}
+.responsivo-leste-maior-secundo {
+    width: 70%;
+    float: right;
+}
+.responsivo-leste-maior-terceiro {
+    width: 80%;
+    float: right;
+}
+.responsivo-leste-maior-quarto {
+    width: 90%;
+    float: right;
+}
+.responsivo-leste-maior-quinto {
+    width: 100%;
+    float: right; 
+}
+/* responsivo oeste menor */
+.responsivo-leste-menor-primeiro {
+    width: 10%;
+    float: right;
+}
+.responsivo-leste-menor-secundo {
+    width: 20%;
+    float: right;
+}
+.responsivo-leste-menor-terceiro {
+    width: 30%;
+    float: right;
+}
+.responsivo-leste-menor-quarto {
+    width: 40%;
+    float: right;
+}
+.responsivo-leste-menor-quinto {
+    width: 50%;
+    float: right;
+}
+.centro-tudo-foto-busca{
+    width: 100%;
+    float: right;
+    position: relative;
+    display: inline;
+    background: #ffffff;
+    padding: 5px;
+}
+.centro-tudo-foto-busca .centro-tudo-foto {
+    margin-top: 0px;
+}
+.rodape1 h1 {
+    background: #6b0000;
+    margin-top: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 1.8em;
+}
+.rodape1 h1 {
+    display: none;
+}
+.container-footer-final {
+    width: 100%;
+    background: #fff;
+    color: #000;
+    padding-top: 10px;
+}
+.help-block ul {
+    background: #d40000;
+    color: #fff;
+    font-size: 1.2em;
+    font-weight: 600;
+    padding: 5px;
+    margin-top: -25px;
+}

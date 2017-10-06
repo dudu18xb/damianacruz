@@ -1,0 +1,851 @@
+@media screen and (max-width: 1024px) {
+    #container {
+        width: 100%;
+    }
+    .navdireita ul {
+        margin-left: 2px;
+    }
+    .imglogo {
+        margin-left: -285px;
+    }
+    nav ul li:hover > ul{
+        left: -23%;
+    }
+    .backgraund-panel-body-preto {
+        width: 50%;
+        float: left;
+    }
+    .backgraundimg {
+        width: 50%;
+        float: right;
+    }
+    .backgraundimg iframe {
+        width: 100%;
+    }
+    /* desativando o botao do canto*/
+    #topcontrol {
+        display: none;
+    }
+    aside {
+        width: 22%;
+    }
+    .centro-categoria-conteudo {
+        width: 76%;
+    }
+    .hoverzoom {
+        width: 31.9%;
+    }
+    .whatsapp {
+        margin-right: 183px;
+        width: 60%;
+    }
+    .redes-sociais > ul.centro-redes-sociais {
+        width: 60%;
+        float: right;
+    }
+    .facebook {
+        width: 60%;
+        margin-right: 97px;
+    }
+    .twitter {
+        margin-right: 9px;    
+        width: 60%;
+    }
+    .dentro-logo  img {
+        width: 18%;
+    }
+}    
+@media screen and (max-width: 980px) {
+    #container {
+        display: none;
+    }
+    .navbar-fixed-bottom, .navbar-fixed-top, .navbar-static-top {
+        display: block;
+        background: #ffffff;
+        border-bottom: 2px solid #a60000;
+    }
+    .navbar-default .navbar-nav>li>a:hover {
+        background: #a60000;
+        color: #ffffff !important;
+    }
+    .navbar-nav>li>.dropdown-menu {
+        left: -19px;
+        background: #ffffff;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        width: 100%;
+        border: 0px;
+    }
+    .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+        background-color: #a60000;
+        color: #ffffff !important;
+    }
+    .navbar-nav {
+        margin-top: 9px;
+    }
+    .dropdown-menu>li>a {
+        width: 100%;
+        color: #a60000;
+        text-decoration: none;
+        font-weight: 600;
+        transition: all 0.4s ease;
+        font-family: "Myriad Pro Regular";
+        font-size: 0.96em;
+        padding: 5px 20px;
+        border-bottom: 1px solid #a60000;
+        text-transform: uppercase;
+    }
+    .dropdown-menu>li>a:hover {
+        background: #a60000; 
+        color: #ffffff !important;
+
+    }
+    .navbar-brand>img {
+        display: block;
+        float: right;
+        margin-left: 110px;
+    }
+    .navbar-default .navbar-nav>li>a {
+        font-size: 0.96em;
+    }
+    .responsivo-oeste {
+        width: 50%;
+    }
+    .responsivo-leste {
+        width: 50%;
+    }
+    .rodape-home .btn-damiana-black {
+        margin-right: 15px;
+    }
+    .twitterbotao .btn-damiana-black {
+        margin-right: 34px !important;
+    }
+    .centro-tudo-foto {
+        margin-top: 0px;
+    }
+    .hoverzoom {
+        width: 48.1%;
+    }
+    aside {
+        margin-top: 0px;
+    }
+    .categoria-aside h1 {
+        font-size: 1.5em;
+    }
+    .categoria-aside ul li a {
+        font-size: 1.0em;
+    }
+    .categoria-aside h3 {
+        font-size: 1.2em;
+    }
+    .noticia-responsivo {
+        margin-top: 100px;
+    }
+    .centro-categoria-conteudo {
+        margin-top: 10px;
+    }
+    .backgraundimg {
+        margin-top: 10px;
+    }
+    .form-inline .form-control {
+        width: 88% !important;
+    }
+    legend {
+        margin-top: 100px;
+    }
+    .noticia-responsivo legend {
+        margin-top: 0px;
+    }
+    .noticia-responsivo-home .col-sm-4 {
+        width: 100%;
+    }
+    .noticia-responsivo-home .col-sm-8 {
+        width: 100%;
+    }
+    .noticia-responsivo-home .col-sm-4 img {
+        width: 100%;
+    }
+    .noticia-responsivo-home h3 {
+        text-align: justify;
+        width: 100%;
+    }
+    .fundo-rodape .list-group {
+        margin-bottom: 0px;
+    }
+    .agendafundo {
+        margin-top: 100px;
+    }
+    .agendafundo .backgraundimg {
+        margin-top: 0px;
+        width: 35%;
+    }
+    .agendafundo .responsivo-oeste{
+        width: 65%;
+    }
+    .backgraund-panel-body-preto {
+        margin-bottom: 10px;
+    }
+    .conteudo-centro-categoria legend {
+        margin-top: 118px;
+    }
+    .whatsapp {
+        width: 78%;
+    }
+    .facebook {
+        width: 78%;
+    }
+    .twitter {
+        width: 78%;
+    }
+    .dentro-logo {
+        width: 56%;
+    }
+    .dentro-logo  img {
+        width: 24%;
+    }
+}
+@media screen and (max-width: 960px){
+
+}
+@media screen and (max-width: 767px){
+    .nav>li{
+        margin-left: 0px;
+        position: relative;
+        display: block;
+        width: 100%;
+        float: left;
+        margin-left: 18px;
+        background: #fbecec;
+        border-bottom: 3px solid #fff;
+        border-radius: 15px;
+    }
+    nav ul li:hover > ul {
+        display: none;
+    }
+    .navbar-nav {
+        width: 100%;
+    }
+    .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+        border-color: #e7e7e7;
+    }
+    .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+        width: 100%;
+        background: #a60000;
+        color: #fff !important;
+        text-align: left;
+        background-color: #a60000;
+        border-bottom: 1px solid #a60000;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu>li>a {
+        width: 100%;
+        text-align: left;
+        border-radius: 15px;
+        border-bottom: 2px solid #fff;
+    }
+    .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+        background-color: #a60000;
+        border-bottom: 1px solid #a60000;
+        width: 100%;
+        text-align: left;
+        background: #a60000;
+        color: #fff !important;
+    }
+    .navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+        margin-left: -15px;
+    }
+    .navbar-brand>img {
+        float: left;
+        margin-left: 17px;
+    }
+    .navbar-nav {
+        margin-top: 0px;
+    }
+    .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+        border-color: #a60000;
+    }
+    .navbar-default .navbar-nav>li>a {
+        width: 100%;
+        text-align: left;
+    }
+    .navbar-default .navbar-nav>li>a:hover {
+        width: 100%;
+        text-align: left;
+        border-radius: 15px;
+    }
+    .navbar-default .navbar-toggle {
+        border-color: #a60000;
+        background: #a60000;
+    }
+    .navbar-default .navbar-toggle .icon-bar {
+        background-color: #fff;
+    }
+    .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+        background-color: #a60000;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu>li>a:hover {
+        background-color: #a60000;
+        border-radius: 15px;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu>li>a {
+        border-radius: 15px;
+        border-bottom: 2px solid #fff;
+    }
+    .centro-tudo-foto {
+        margin-top: 0px;
+    }
+    aside {
+        margin-top: 0px;
+    }
+    legend {
+        margin-top: 50px;
+    }
+    .agendafundo {
+        margin-top: 50px;
+    }
+    .noticia-responsivo {
+        margin-top: 50px;
+    }
+    .noticia-responsivo img {
+        width: 100%;
+    }
+    .rodape1 ul li {
+        display: inline;
+    }
+    .centro-direitos {
+        margin-top: 20px;
+    }
+    .redes-sociais {
+        margin-top: 0px;
+        width: 100%;
+    }
+    .twitter {
+        width: 75%;
+        margin-right: 173px;
+        margin-top: -53px;
+        margin-bottom: 10px;
+    }
+    .facebook {
+        width: 75%;
+        margin-right: 317px;
+        margin-top: -53px;
+    }
+    .whatsapp {
+        width: 75%;
+        margin-right: 461px;
+        margin-top: 10px;
+
+    }
+    .centro-redes-sociais ul {
+        width: 83%;
+    }
+    .rodape1 ul li a {
+        padding: 6px 18px;
+    }
+    .rodape1 .rodape-fundo {
+        width: 100%;
+        margin-bottom: 0px;
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+    .dentro-logo {
+        margin-bottom: -5px;
+        width: 100%;
+    }
+    .desenvolvedor {
+        width: 16.5%;
+    }
+    .conteudo-centro-categoria legend {
+        margin-top: 60px;
+    }
+    .dentro-logo  img {
+        width: 35%;
+    }
+    .dentro-logo {
+        width: 60%;
+    }
+}
+@media screen and (max-width: 752px) {
+    .hoverzoom {
+        width: 31.3%;
+    }
+    .hoverzoom .retina a {
+        width: 100px;
+        margin: -5px auto 0;
+    }
+    .hoverzoom .retina p {
+        margin-top: -13px;
+    }
+}
+@media screen and (max-width: 668px) {
+    .hoverzoom {
+        width: 31%;
+    }
+    .categoria-aside h3 {
+        font-size: 1.0em;
+    }
+    .categoria-aside ul li a{
+        font-size: 0.9em;
+    }
+    .redes-sociais > a {
+        font-size: 0.8em;
+    }
+    .dentro-logo {
+        margin-top: -18px;
+        width: 61%;
+    }
+    .centro-redes-sociais ul {
+        width: 72%;
+    }
+    .whatsapp {
+        width: 95%;
+        margin-right: 387px;
+        margin-top: 23px;
+    }
+    .facebook {
+        width: 95%;
+        margin-right: 267px;
+        margin-top: -56px;
+    }
+    .twitter {
+        width: 95%;
+        margin-right: 146px;
+        margin-top: -55px;
+        margin-bottom: 10px;
+    }
+    .hoverzoom .retina a {
+        margin: -7px 0px 0px -9px;
+        padding: 2px 2px;
+    }
+    .categoria-aside h1 {
+        font-size: 1.3em;
+    }
+    .hoverzoom .retina p {
+        font-size: 0.8em;
+    }
+
+}
+@media screen and (max-width: 640px) {
+    .hoverzoom {
+        width: 31%;
+    }
+    .categoria-aside h1 {
+        font-size: 1.3em;
+    }
+    .categoria-aside ul li a {
+        font-size: 0.9em;
+    }
+    .hoverzoom .retina p {
+        margin-top: -15px;
+    }
+    .hoverzoom .retina a {
+        width: 90px;
+        margin: -7px 5px 5px -8px;
+        padding: 2px 15px;
+    }
+    .backgraundimg {
+        display: none;
+    }
+    .sobrenos-responsivo .backgraundimg {
+        display: block;
+        width: 40%;
+    }
+    .sobrenos-responsivo .responsivo-oeste {
+        width: 60%;
+    }
+    .backgraund-panel-body-preto {
+        width: 100%;
+    }
+    .responsivo-oeste {
+        width: 100%;
+    }
+    .responsivo-leste {
+        width: 100%;
+    }
+    .agendafundo .responsivo-oeste {
+        width: 100%;
+    }
+    .hoverzoom .retina p {
+        margin-top: -15px !important;
+    }
+    .redes-sociais  p {
+        font-size: 1.3em;
+    }
+    .centro-redes-sociais ul {
+        width: 67%;
+    }
+}
+@media screen and (max-width: 568px){
+    .categoria-aside h1 {
+        font-size: 1.2em;
+        margin-top: 0px;
+    }
+    .centro-categoria-conteudo {
+        margin-top: 0px;
+    }
+    .conteudo-centro-categoria legend h1 {
+        font-size: 1.5em;
+    }
+    .hoverzoom {
+        width: 47%
+    }
+    .twitter {
+        width: 100%;
+        margin-right: 118px;
+        margin-top: -49px;
+        margin-bottom: 10px;
+    }
+    .facebook {
+        width: 100%;
+        margin-right: 234px;
+        margin-top: -47px;
+    }
+    .whatsapp {
+        width: 102%;
+        margin-right: 334px;
+        margin-top: 15px;
+    }
+    .centro-redes-sociais ul {
+        width: 72%;
+    }
+    .rodape1 h1 {
+        display: block;
+    }
+    .hoverzoom .retina a {
+        width: 100px;
+        margin: 4px 6px 6px 6px;
+        padding: 2px 15px;
+    }
+    .hoverzoom .retina p {
+        font-size: 0.9em;
+        margin-top: -8px !important;
+    }
+
+
+}
+@media screen and (max-width: 480px){
+    .navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+        width: 88%;
+        float: left;
+    }
+    .navbar-brand>img {
+        width: 55%;
+    }
+    .rodape-home .btn-damiana-black {
+        margin-right: 4px;
+    }
+    .redes-sociais > a {
+        font-size: 0.66em;
+    }
+    .twitterbotao .btn-damiana-black {
+        margin-right: 17px !important;
+    }
+    .noticiadefault h1 {
+        font-size: 1.3em;
+    }
+    .noticiadefault h3 {
+        font-size: 1.2em;
+    }
+    .noticiadefault p {
+        font-size: 1.0em;
+        margin-top: 5px;
+
+    }
+    .hoverzoom {
+        width: 46.6%;
+    }
+    .categoria-aside h1 {
+        font-size: 0.9em;
+    }
+    .categoria-aside ul li a {
+        font-size: 0.78em;
+        padding-left: 8px;
+    }
+    .rodape-direitos p {
+        font-size: 1.0em;
+    }
+    .redes-sociais {
+        font-size: 1.6em;
+    }
+    .desenvolvedor {
+        width: 100%;
+        float: left;
+    }
+    .dentro-logo {
+        margin-top: -8px;
+        width: 68%;
+        float: left;
+        margin-left: 149px;
+        margin-bottom: 10px;
+    }
+    .dentro-logo  img{
+        width: 46%;
+    }
+    .whatsapp {
+        width: 130%;
+        margin-right: -16px;
+        margin-top: 15px;
+    }
+    .redes-sociais .whatsapp img {
+        float: left;
+    }
+    .redes-sociais  p {
+        margin-right: -15px;
+        font-size: 1.0em;
+    }
+    .centro-redes-sociais ul {
+        width: 67%;
+        float: left;
+    }
+    .facebook {
+        width: 96%;
+        margin-right: 0px;
+        margin-top: 19px;
+    }
+    .twitter {
+        width: 95%;
+        margin-right: 0px;
+        margin-top: 31px;
+        margin-bottom: 11px;
+    }
+    .redes-sociais .twitter img {
+        float: left;
+        width: 25%;
+    }
+    .redes-sociais .facebook img {
+        float: left;
+        width: 25%;
+    }
+    .asidenoticias.responsivo-leste-menor-terceiro > .categoria-aside {
+        display: none;
+    }
+    .noticia-responsivo {
+        width: 100%;
+    }
+    .categoria-aside {
+        display: none;
+    }
+    .centro-categoria-conteudo {
+        width: 100%;
+        margin-top: 0px;
+    }
+    .hoverzoom .retina p {
+        margin-top: -7px !important;
+        font-size: 1.0em;
+    }
+    .hoverzoom .retina a {
+        width: 150px;
+        margin: -3px 3px 3px -8px;
+        padding: 4px 15px;
+    }
+    .conteudo-centro-categoria legend h1 {
+        font-size: 1.4em;
+    }
+    legend h1 {
+        font-size: 1.4em;
+    }
+    .responsivo-leste .noticia-responsivo-home h1 {
+        font-size: 2.3em;
+    }
+
+}    
+@media screen and (max-width: 420px){
+    .categoria-aside ul li a {
+        padding-left: 8px;
+        font-size: 0.9em;
+    }
+    .categoria-aside h3 {
+        font-size: 0.9em;
+    }
+    .navbar-brand>img {
+        width: 60%;
+    }
+    aside {
+        width: 36%;
+    }
+    .categoria-aside h1 {
+        font-size: 1.2em;
+    }
+    .hoverzoom .retina p {
+        font-size: 0.9em;
+        line-height: 16px;
+    }
+    .redes-sociais {
+        width: 100%;
+        border-left: 0px;
+    }
+    .rodape-home .btn-damiana-black {
+        font-size: 0.9em;
+        float: left;
+        border-bottom: 1px solid #fff;
+        text-align: left;
+        width: 100%;
+    }
+    .carousel-caption h3 {
+        font-size: 1.5em;
+    }
+    .carousel-caption p {
+        font-size: 1.0em;
+    }
+    .hoverzoom {
+        width: 47%;
+    }
+    .hoverzoom .retina a {
+        width: 128px;
+        margin: -3px 3px 3px -6px;
+        padding: 4px 15px;
+    }
+    .conteudo-centro-categoria legend h1 {
+        font-size: 1.3em;
+    }
+    legend h1 {
+        font-size: 1.3em;
+    }
+    .responsivo-leste .noticia-responsivo-home h1 {
+        font-size: 2.0em;
+    }
+    .whatsapp {
+        margin-right: 20px;
+    }
+}
+@media screen and (max-width: 375px){
+    .navbar-brand>img {
+        width: 70%;
+    }
+    .rodape-home .btn-damiana-black{
+        margin-right: 0px;
+        font-size: 0.9em;
+    }
+    .navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+        width: 87%;
+    }
+    .fundo-rodape .list-group {
+        font-size: 0.88em;
+    }
+    .twitterbotao .btn-damiana-black {
+        margin-right: 10px !important;
+    }
+    .noticiadefault h1 {
+        font-size: 1.0em;
+    }
+    .hoverzoom .retina a {
+        margin: 31px 0px 0px 44px;
+        width: 170px;
+        padding: 8px 15px;
+    }
+    .responsivo-oeste-maior-secundo {
+        width: 100%;
+    }
+    .responsivo-leste-menor-terceiro {
+        width: 40%;
+    }
+    .carousel-caption h3 {
+        font-size: 1.4em;
+    }
+    .carousel-caption p {
+        font-size: 0.9em;
+    }
+    .whatsapp {
+        width: 135%;
+        margin-right: 18px;
+    }
+    .dentro-logo {
+        margin-left: 108px;
+        margin-top: -20px;
+        float: left;
+        margin-bottom: 13px;
+        width: 60%
+    }
+    .dentro-logo  img {
+        width: 64%;
+    }
+    .facebook {
+        width: 95%;
+    }
+    .twitter {
+        width: 95%;
+    }
+    .hoverzoom {
+        width: 97%;
+    }
+    .hoverzoom .retina p {
+        font-size: 1.2em;
+        line-height: 16px;
+        margin-top: 0px !important;
+    }
+    .responsivo-leste .noticia-responsivo-home h1 {
+        font-size: 1.7em;
+    }
+    .noticia-responsivo-home h3 {
+        font-size: 1.5em;
+    }
+}
+@media screen and (max-width: 360px){
+    .hoverzoom .retina a {
+        margin: 12px 0px 0px 26px;
+    }
+    .carousel-caption h3 {
+        font-size: 1.2em;
+    }
+    .carousel-caption p {
+        font-size: 0.8em;
+    }
+    .categoria-aside h1 {
+        font-size: 1.1em;
+    }
+    .dentro-logo {
+        margin-left: 110px;
+        width: 55%;
+    }
+    .centro-redes-sociais ul {
+        margin-top: -6px;
+    }
+}
+@media screen and (max-width: 320px){
+    .navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand{
+        width: 84%;
+        padding-top: 21px;
+    }
+    .hoverzoom .retina a {
+        margin: 22px 0px 0px 14px;
+    }
+    .categoria-aside h1 {
+        font-size: 1.0em;
+    }
+    .categoria-aside ul li a {
+        font-size: 0.83em;
+        padding-left: 11px;
+    }
+    .carousel-caption h3 {
+        font-size: 1.0em;
+    }
+    .carousel-caption p {
+        font-size: 0.7697em;
+    }
+    .dentro-logo {
+        margin-left: 92px;
+        width: 61%;
+    }
+    .whatsapp {
+        width: 100%;
+        margin-right: -15px;
+    }
+    .redes-sociais .facebook img {
+        width: 35%;
+    }
+    .facebook {
+        width: 60.7%;
+    }
+    .twitter {
+        width: 60.7%;
+    }
+    .redes-sociais .twitter img {
+        width: 35%;
+    }
+    .form-inline .form-control {
+        width: 100% !important;
+        margin-bottom: 10px;
+    }
+    .redes-sociais > ul.centro-redes-sociais {
+        width: 100%;
+    }
+}
