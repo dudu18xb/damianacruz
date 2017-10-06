@@ -1,5 +1,5 @@
 # damianacruz (Versão Beta)
-## A Versão Online pode ser visualizada no link acima.
+## A Versão Oficial pode ser visualizada no link acima.
 
 Site Oficial de Fotografia
 
